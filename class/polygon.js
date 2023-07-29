@@ -18,4 +18,28 @@ var Person = class {
         this.age = age
         this.name = name
     }
+
+    display(){
+        console.log(`God is love don't forget this God is Faithful ${this.age} ${this.name}`)
+    }
 }
+
+var person = new Person('Gasana',120)
+person.display()
+
+
+class Contact {
+    constructor(firstname,pnone){
+        this.firstname = firstname
+        this.phone = pnone
+    }
+
+    save(){
+        console.log(`
+        Name : ${this.firstname}
+        Phone: ${this.phone}`)
+    }
+}
+
+var contact = new Contact('Keza','0782602290') 
+contact.save()
