@@ -37,3 +37,27 @@ class Student {
     book1.color = 800
 
     console.log(book1)
+
+
+
+    class Workers {
+        constructor(position,email, degree){
+            this.degree = degree 
+            this.position = position
+            this.email = email
+            console.log('Inside constructor')
+        }
+
+        get fullNmae(){
+            console.log('Inside getter method')
+            return `
+            Position :${this.position}
+            Email address :${this.email	}
+            Degree :${this.degree}
+             `
+        }
+    }
+
+    var workers = new Workers('Manager','gasana@gmail.com','Masters')
+    console.log(workers)
+    console.log(workers.fullName)
