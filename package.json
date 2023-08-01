@@ -2,7 +2,9 @@
   "dependencies": {
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.27",
-    "prompt-sync": "^4.2.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
     "tailwindcss": "^3.3.3"
   }
 }
