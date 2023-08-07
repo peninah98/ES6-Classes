@@ -1,0 +1,19 @@
+let a = 2
+let b = 4
+let c = 10
+
+console.log(a & b)
+console.log(~b)
+console.log(a | b)
+console.log(a ^ b ^ c ^ a)
+
+
+// Ternary operator
+
+let num = -2
+let result = num > 0 ? 'Positive number ' : 'Non-positive number'
+
+console.log(result)
+
+let x 
+console.log(typeof x)
