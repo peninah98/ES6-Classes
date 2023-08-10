@@ -1,8 +1,13 @@
 function names(...str){
-    return str.map((item,index)=>{
-        return
-    })
+    if(str.length === 1){
+        return str.toString()
+    }
+
+    else{
+        let result = str.pop().toUpperCase()
+        return str.join('')+result
+    }
     
 }
 
-names('Hello','Sellennaa','helloo')
+console.log(names('hello'))
