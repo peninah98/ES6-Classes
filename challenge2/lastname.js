@@ -3,8 +3,16 @@ const names = (...name) => {
         return 'Not enough';
     } else {
         const lastElement = name[2]
-        const result = name.map(element => element + ' '+lastElement);
-        return result;
+        return name.map((element) =>{
+            if(element=lastElement){
+                return
+            }
+          else{
+           return element + ' '+lastElement
+          }
+             
+       
+        }).join(' ');
     }
 }
 

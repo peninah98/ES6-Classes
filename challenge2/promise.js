@@ -18,3 +18,6 @@ promise.then((message)=>{
     console.log(`we were doing mathematical operation`)
 })
 
+
+const arr = [2,3,434,545,656,77]
+
