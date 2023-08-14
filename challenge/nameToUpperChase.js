@@ -9,6 +9,7 @@ let y = array.filter(index => typeof(index !=='string'));
 return (y);
 }
 console.log(extractNumbers(['2factor', '6nine']))
+console.log('just for testing')
 
 
 
