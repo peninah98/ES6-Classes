@@ -1,19 +1,29 @@
-const names = (...name) => {
-    if (name.length < 3) {
-        return 'Not enough';
-    } else {
-        const lastElement = name[2]
-        return name.map((element) =>{
-            if(element=lastElement){
-                return
-            }
-          else{
-           return element + ' '+lastElement
-          }
-             
-       
-        }).join(' ');
+function addNames(...names){
+    if(names.length < 3){
+        return 'Not enough names'
+    }
+
+    else{
+        const lastName = names[2]
+        const result = names.map((item,index)=>index !== 2 ? item + ' ' + lastName : item)
+        return result.filter((_,index)=>index !== 2)
+
     }
 }
 
-console.log(names('Penine', 'Amina', 'Gasana', 'Anania'));
+console.log(addNames('Penina','Gasangwa','Fabien','Alain','Elsiee'))
+
+
+
+gunction *generator(){
+    let i = 1
+
+while(true){
+    yield (i)
+    i++
+}
+}
+
+let iteraror = generator()
+
+console.log(iteraror.next().value)
