@@ -1,0 +1,1 @@
+console.log(typeof (1+7).toString())

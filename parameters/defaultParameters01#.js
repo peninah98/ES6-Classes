@@ -1,2 +1,3 @@
-const greeting =(name = "Anna McAlister") => `Hello ${name}`
+const greeting = (name = "Anna McAlister") => `Hello ${name}`
 console.log(greeting());
+
