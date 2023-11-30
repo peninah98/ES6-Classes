@@ -83,3 +83,16 @@ function createCalculator(a, b, c) {
 
 const maximum = createCalculator(1, 43, 53);
 console.log(maximum.greatest());
+
+
+function createOperations(x,y){
+    return{
+        x,y,
+        sum: function(){
+            return `${this.x + this.y}`
+        }
+    }
+}
+
+const result = createOperations(8,9)
+console.log(result.sum())
