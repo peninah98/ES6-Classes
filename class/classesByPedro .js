@@ -15,3 +15,4 @@ let person2= new Person("Pedro", 12)
 console.log(person1.getName())
 console.log(person2.getName())
 
+
