@@ -3,3 +3,5 @@ console.log(+{
     return "0xFF"
   }
 })
+
+console.log(typeof NaN);
