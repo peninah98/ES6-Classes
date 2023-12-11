@@ -5,3 +5,6 @@ console.log(NaN == NaN)
 console.log(undefined == null)
 console.log(null == null)
 
+
+
+console.log(null * 10);
