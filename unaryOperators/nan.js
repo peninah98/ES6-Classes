@@ -8,3 +8,4 @@ console.log(null == null)
 
 
 console.log(null * 10);
+console.log(undefined === null);
