@@ -8,3 +8,6 @@
   let sum = a - b
   console.log(sum);
 })(2, 4)
+
+
+console.log(this === global);
