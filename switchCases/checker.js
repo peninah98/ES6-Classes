@@ -3,8 +3,8 @@ switch (a) {
   case 2:
     console.log("uno")
     break
-  case 4:
-    console.log(3)
+  case 9:
+    console.log("I am the right case among others hahahah")
     break
 
   default:
