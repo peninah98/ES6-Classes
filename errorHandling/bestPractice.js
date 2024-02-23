@@ -20,6 +20,6 @@ try {
 try {
     
 } catch (error) {
-    // Log the error with a logging libray so that other developers will know what error is occuring
+    // Log the error with a logging libray so that other developers will know what error is occuring, analyse it propery and can fix the error
     
 }
