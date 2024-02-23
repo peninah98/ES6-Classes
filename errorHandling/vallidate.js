@@ -8,11 +8,7 @@ function userData() {
     console.error(`Error: ${error.message}`)
   }
 }
-// function validateUser(age) {
-//   typeof age !== "number"
-//     ? throw new Error("Age must be a number")
-//     : console.log("User age is invalid")
-// }
+
 
 function validateUser(age) {
   if (typeof age !== "number") throw new Error("Age must be a number")
