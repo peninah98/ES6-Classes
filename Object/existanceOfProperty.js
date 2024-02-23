@@ -3,7 +3,7 @@ const person = {
   citizenship: "Rwandan",
   university: "UR-CST",
   department: "CSE",
-}
+} 
 
 console.log("name" in person)
 
